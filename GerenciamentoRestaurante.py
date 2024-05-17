@@ -1,17 +1,16 @@
 def restaurante():
     while True:
         print("\nGerenciamento do Restaurante: ")
-        print("1: Visualizar Produtos em Estoque")
-        print("2: Substituir Produtos")
-        print("3: Adicionar Novos Produtos")
-        print("4: Remover Produtos")
-        print("5: Consultar Detalhes de um Produto")
-        print("6: Sair do Sistema")
+        print("1: Registrar Novo Pedido")
+        print("2: Atualizar Status do Pedido")
+        print("3: Remover Pedido Concluído")
+        print("4: Visualizar Pedidos Pendentes e Concluídos")
+        print("5: Sair do Sistema")
 
         try:
             menu = int(input("Digite o número do menu: "))
 
-            if menu == 6:
+            if menu == 5:
                 print("Encerrando gerenciador, Até Logo!")
                 break
             else:
